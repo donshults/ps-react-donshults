@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "highlight.js": "^9.10.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "styled-components": "^1.4.5"
@@ -21,7 +20,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,mjs}"
     ],
-    "setupFiles": [
+    "setupFiles": [ 
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
@@ -99,7 +98,6 @@
     "object-assign": "4.1.1",
     "postcss-loader": "1.2.2",
     "promise": "7.1.1",
-    "raf-polyfill": "^1.0.0",
     "react-addons-test-utils": "^15.5.1",
     "react-dev-utils": "^0.5.2",
     "react-docgen": "^2.14.0",
